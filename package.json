@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "description": "Norse Corp Clone",
   "scripts": {
-    "start": "node server/index.js",
+    "start": "nodemon server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Eythor Magnusson",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.1",
     "express": "^4.16.2",
+    "geo-from-ip": "^2.1.0",
+    "node-geocoder": "^3.27.0",
+    "nodemon": "^2.0.7",
     "socket.io": "^2.0.4"
   }
 }
