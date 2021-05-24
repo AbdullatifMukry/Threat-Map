@@ -1,0 +1,8 @@
+body { background-color: black }
+#map { height: 500px;  }
+
+@keyframes flash {
+from { background-color: gray; }
+to { background-color: var(--bs-table-bg); }
+}
+.flash { animation: flash 1.5s; }
